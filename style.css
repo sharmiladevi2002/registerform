@@ -1,0 +1,68 @@
+.container{
+    position: relative;
+    text-align: center  ;
+    background-color: rgba(14, 14, 14, 0.100);
+    height:500px;
+    width: 550px;
+    left: 400px;  
+    margin-top: 160px;
+}
+#one{
+   position: absolute;
+   top: 50px;
+   left: 100px;
+   color: rgba(4, 4, 1, 0.915); 
+}
+#two{
+   position: absolute;
+   top: 110px;
+   left: 100px;
+   color: rgba(9, 9, 5, 0.868);  
+}
+#three{
+   position: absolute;
+   top: 180px;
+   left: 100px;
+   color: rgba(8, 8, 8, 0.805);
+}
+#email{
+    margin-top: 10px;
+    width: 220px;
+    padding: 5px;
+}
+#uname{
+    margin-top: 10px;
+    width: 220px;
+    padding: 5px;
+}
+#pass{
+    margin-top: 20px;
+    width: 220px;
+    padding: 5px;
+
+}
+p{
+    margin-top: 20px;
+    width: 220px;
+    padding: 5px;
+    color: rgba(9, 9, 9, 0.91);
+}
+
+.radio{
+    display: flex;
+  justify-content: space-around;
+  font-size: x-large;
+  color:rgb(6, 4, 4);
+}
+#btn{
+    margin-top: 20px;
+    background-color: rgb(247, 10, 180);
+    color: rgb(246, 245, 246);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+body{
+    background-image: url(./flower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
